@@ -48,3 +48,8 @@ footer {
     border-top: 1px solid #666;
     margin-top: 20px;
 }
+
+img {
+    border: 3px solid rgb(0, 224, 253);
+    height: 300px;
+}
