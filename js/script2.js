@@ -1,3 +1,8 @@
-document.write("<h1>Executando script2.js</h1>");
+document.write("<h1>Executando script2.js ");
 document.write("Esse script está em um arquivo externo ");
-document.write("referenciado no fim do body do HTML");
+document.write("Referenciado no fim do  body do HTML");
+
+function mudarCor(novaCor) {
+    var x = document.getElementById("demo");
+    x.style.color = novaCor;
+}
